@@ -1,12 +1,43 @@
+.box {
+    background: black;
+    height: 400px;
+    width: 150px;
+    margin: auto;
+    padding-top: 1px;
+    margin-top: 15px;    
+}
 
-/* 
+.light {
+    height: 100px;
+    width: 100px;    
+    border-radius: 50%;
+    margin: 25px;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.red-light {
+    background: red;
+}
 
-*/
+.yellow-light {
+    background: yellow;
+}
+
+.green-light {
+    background: green;
+}
+
+.glow-red {
+    box-shadow: 0px 0px 9px 4px red;
+    animation: glow 0.8s linear infinite alternate;
+}
+
+.glow-yellow {
+    box-shadow: 0px 0px 9px 4px yellow;
+    animation: glow 0.8s linear infinite alternate;
+}
+
+.glow-green {
+    box-shadow: 0px 0px 9px 4px green;
+    animation: glow 0.8s linear infinite alternate;
+}
